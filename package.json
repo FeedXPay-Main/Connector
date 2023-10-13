@@ -1,0 +1,13 @@
+{
+    "scripts": {
+        "start": "nodemon app.ts",
+        "dev": "nodemon app.ts"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "mongoose": "^5.12.7"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.22"
+    }
+}
