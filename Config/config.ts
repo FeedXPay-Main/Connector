@@ -45,7 +45,9 @@ export const config = Object.freeze({
   },
   db: {
     mongodb: {
-      MONGO_URL: process.env.MONGODB_URL as string,
+      personal: process.env.PERSONAL_MONGODB_URL as string,
+      business: process.env.BUSINESS_MONGODB_URL as string,
+      expand: process.env.EXPAND_MONGODB_URL as string,
     },
     postgresql: {
       POSTGRESQL_USER: process.env.POSTGRESQL_USER as string,

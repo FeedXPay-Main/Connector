@@ -26,12 +26,10 @@ const verifyAuthenticatedRequest = (user: any, email: string) => {
 }
 
 
-const me: IAuthenticatedRequest = new 
 
 
-class Authenication implements IAuth {
+class Authentication implements IAuth {
     async login(req: Request, res: Response): Promise<Response> {
-        r
         return res.status(200).json({message: "Login"});
     }
 
